@@ -64,7 +64,7 @@ class MALDialog(QDialog):
         # parameters
         layoutPara = QHBoxLayout()
 
-        self.labelEmo = QLabel('Please wait...\nYou can press "q" to close the camera.')
+        self.labelEmo = QLabel('Please wait...\nYou can press "Q" on your keyboard to close the camera.')
         self.labelEmo.setFont(QFont('Arial', 12))
         layoutPara.addWidget(self.labelEmo)
         layoutPara.addStretch(0)
