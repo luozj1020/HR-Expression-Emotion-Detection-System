@@ -64,8 +64,8 @@ $$
 
 进入程序会跳出帮助窗口，提示用户输入需要获取的参数的范围
 
-![QQ截图20220911232322](E:\IGEM\pictures\QQ截图20220911232322.png)
-
+![[QQ截图20220911232322](E:\IGEM\pictures\QQ截图20220911232322.png)
+](https://github.com/luozj1020/HR-Expression-Emotion-Detection-System/blob/main/pictures)
 关闭帮助窗口后会进入主窗口，用户仍然可以点击主窗口右下角的帮助按钮获取帮助
 
 ![QQ截图20220911232700](E:\IGEM\pictures\QQ截图20220911232700.png)
