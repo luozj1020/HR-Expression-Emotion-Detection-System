@@ -64,23 +64,23 @@ $$
 
 进入程序会跳出帮助窗口，提示用户输入需要获取的参数的范围
 
-![QQ截图20220911232322](E:\IGEM\pictures\QQ截图20220911232322.png)
+![QQ截图20220911232322](https://github.com/luozj1020/HR-Expression-Emotion-Detection-System/blob/main/pictures/QQ%E6%88%AA%E5%9B%BE20220911232322.png)
 
 关闭帮助窗口后会进入主窗口，用户仍然可以点击主窗口右下角的帮助按钮获取帮助
 
-![QQ截图20220911232700](E:\IGEM\pictures\QQ截图20220911232700.png)
+![QQ截图20220911232700](https://github.com/luozj1020/HR-Expression-Emotion-Detection-System/blob/main/pictures/QQ%E6%88%AA%E5%9B%BE20220911232700.png)
 
 当用户为输入参数或参数有误时，会弹出警告窗口
 
-![QQ截图20220911232736](E:\IGEM\pictures\QQ截图20220911232736.png)
+![QQ截图20220911232736](https://github.com/luozj1020/HR-Expression-Emotion-Detection-System/blob/main/pictures/QQ%E6%88%AA%E5%9B%BE20220911232736.png)
 
 当用户正确输入参数后，点击开始按钮会弹出隐私保护声明按钮，请用户确认允许使用摄像头，并声明输入的信息会经过加密，并不会保存
 
-![QQ截图20220911233032](E:\IGEM\pictures\QQ截图20220911233032.png)
+![QQ截图20220911233032](https://github.com/luozj1020/HR-Expression-Emotion-Detection-System/blob/main/pictures/QQ%E6%88%AA%E5%9B%BE20220911233032.png)
 
 用户接受后，识别程序开始运行，会主窗口会显示心率（程序目前心率采用随机数），同时弹出摄像头窗口和显示实时MAL的窗口，在MAL窗口会显示识别的情绪
 
-![QQ截图20220911233233](E:\IGEM\pictures\QQ截图20220911233233.png)
+![QQ截图20220911233233]([E:\IGEM\pictures\QQ截图20220911233233.png](https://github.com/luozj1020/HR-Expression-Emotion-Detection-System/blob/main/pictures/QQ%E6%88%AA%E5%9B%BE20220911233233.png))
 
 ## 隐私保护与安全
 
