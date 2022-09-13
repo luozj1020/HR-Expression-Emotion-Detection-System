@@ -82,7 +82,6 @@ class MALDialog(QDialog):
 
         self.move(900, 100)
 
-
     def plot(self, key, cipher_text):
         plaintext = self.rsa.rsa_long_decrypt(cipher_text, key['private'].decode())
         data = ast.literal_eval(plaintext)
@@ -110,11 +109,12 @@ class MALDialog(QDialog):
                 with open('emotion.txt', 'r') as f:
                     emotion = f.read()
                 if y[-1] > 0.5 or y[-1] < -0.3:
-                    self.labelEmo.setText('You are ' + emotion + '.\nYou can press "q" to close the camera.')
+                    self.labelEmo.setText(
+                        'You are ' + emotion + '.\nYou can press "Q" on your keyboard to close the camera.')
                 else:
-                    self.labelEmo.setText('You are Neutral.\nYou can press "q" to close the camera.')
+                    self.labelEmo.setText('You are Neutral.\nYou can press "Q" on your keyboard to close the camera.')
             else:
-                self.labelEmo.setText('Please wait...\nYou can press "q" to close the camera.')
+                self.labelEmo.setText('Please wait...\nYou can press "Q" on your keyboard to close the camera.')
             self.plotMAL.plot(x, y, 'MAL(Mental Arousal Level)', 't(s)', 'MAL')
             self.plotMAL.plotline(x, [0] * len(x), 'r-')
             self.plotMAL.plotline(x, [-0.3] * len(x), 'g--')
@@ -139,7 +139,7 @@ class HeartRateDialog(Dialog):
         super().__init__()
         self.n_data = 60
         self.xdata = list(range(self.n_data))
-        self.ydata = [random.randint(80, 120) for i in range(self.n_data)]
+        self.ydata = [random.randint(60, 70) for i in range(self.n_data)]
         self.icon = QIcon('igem.png')
         self.rsa = Encryption()
         self.key = self.rsa.getKey()
@@ -312,9 +312,7 @@ class HeartRateDialog(Dialog):
         self.buttonStop.setDisabled(True)
         self.buttonStart.setDisabled(False)
         self.timer.stop()
-        self.maldialog.timer.stop()
         self.maldialog.close()
-
 
     def Note(self, msg, title, x, y):
         notedialog = QDialog()
@@ -342,7 +340,7 @@ class HeartRateDialog(Dialog):
     def plot(self):
         self.plotHR.reset()
         x = self.xdata
-        y = self.ydata[1:] + [random.randint(80, 120)]
+        y = self.ydata[1:] + [random.randint(60, 70)]
         self.ydata = y
         # print(y[-1])
         OCC = 0
