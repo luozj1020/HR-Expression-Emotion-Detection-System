@@ -80,7 +80,7 @@ $$
 
 用户接受后，识别程序开始运行，会主窗口会显示心率（程序目前心率采用随机数），同时弹出摄像头窗口和显示实时MAL的窗口，在MAL窗口会显示识别的情绪
 
-![QQ截图20220911233233]([E:\IGEM\pictures\QQ截图20220911233233.png](https://github.com/luozj1020/HR-Expression-Emotion-Detection-System/blob/main/pictures/QQ%E6%88%AA%E5%9B%BE20220911233233.png))
+![QQ截图20220911233233](https://github.com/luozj1020/HR-Expression-Emotion-Detection-System/blob/main/pictures/QQ%E6%88%AA%E5%9B%BE20220911233233.png)
 
 ## 隐私保护与安全
 
