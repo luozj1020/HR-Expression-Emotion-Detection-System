@@ -62,6 +62,7 @@ $$
 ### 多模态的实现
 
 ​		当MAL超出正常范围时，输出人脸情绪识别的情绪；否则，输出无感情。
+![流程图](https://github.com/luozj1020/HR-Expression-Emotion-Detection-System/blob/main/pictures/%E6%B5%81%E7%A8%8B%E5%9B%BE.png)
 
 
 ## 流程
